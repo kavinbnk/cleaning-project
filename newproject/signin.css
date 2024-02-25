@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 160px;
+    background-image: url("https://smartguy.com/webservice/storage/category/house-cleaning.jpg  "); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#container{
+    border-radius: 10px;
+    width: 250px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(0, 11, 13, 0.4);
+}
+#container>div>input{
+    text-align: center;
+    border-radius: 4px;
+    width: 240px;
+    height: 25px;
+}
+#container>div>img{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+#container>div{
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 10px;   
+}
+#button{
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    border-radius: 4px;
+    margin-top: 25px;
+    width: 245px;
+    height: 34px;
+}
+
+
